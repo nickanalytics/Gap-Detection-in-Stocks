@@ -56,7 +56,7 @@ with row1_col1:
     'ADBE': 'Adobe Inc.',
     'ADYEN.AS': 'Adyen N.V.',
     '^AEX': 'AEX Index',
-    'AKZA': 'Akzo Nobel N.V.',
+    'AKZA.AS': 'Akzo Nobel N.V.',
     'ALFEN.AS': 'Alfen N.V.',
     'AMD': 'Advanced Micro Devices, Inc.',
     'AMGN': 'Amgen Inc.',
