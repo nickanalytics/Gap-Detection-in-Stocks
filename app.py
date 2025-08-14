@@ -66,7 +66,7 @@ with row1_col1:
     'BAC': 'Bank of America Corp.',
     'BESI.AS': 'BE Semiconductor Industries N.V.',
     'BKNG': 'Booking Holdings Inc.',
-    'BRK.B': 'Berkshire Hathaway Inc. (Class B)',
+    'BRK-B': 'Berkshire Hathaway Inc. (Class B)',
     'CAT': 'Caterpillar Inc.',
     'CITI': 'Citigroup Inc.',
     'CRM': 'Salesforce.com Inc.',
@@ -137,7 +137,8 @@ with row1_col1:
         # ***** Get the Data *****
         # tickerData = yf.Ticker(symbol)
         # df = tickerData.history(period='1d', start=start, end=end, auto_adjust = False)
-        df = yf.download(symbol,period='1d', start=start, end=end, auto_adjust = False)
+        session = requests.Session(impersonate="chrome")
+        df = yf.download(symbol,period='1d', start=start, end=end, auto_adjust = False,session=session)
         df = df.xs(symbol, axis=1, level='Ticker')
         df = df.reset_index()
         df = df.rename_axis(None, axis="columns")
