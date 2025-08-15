@@ -5,14 +5,13 @@ import datetime as dt
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import time
-import requests
 from io import StringIO
 from dotenv import load_dotenv
 import os
 import plotly.graph_objects as go
 import seaborn as sns
 import matplotlib.pyplot as plt
-
+from curl_cffi import requests
 
 ### ***** Set Variables *****
 

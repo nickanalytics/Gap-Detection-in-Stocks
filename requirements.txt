@@ -17,3 +17,4 @@ statsmodels==0.14.0
 streamlit==1.32.0
 tzdata==2023.3
 yfinance==0.2.65
+curl_cffi==0.6.0
