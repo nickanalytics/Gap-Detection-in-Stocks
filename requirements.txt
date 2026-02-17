@@ -14,7 +14,7 @@ python-dotenv==1.0.1
 requests==2.31.0
 seaborn==0.13.2
 statsmodels==0.14.0
-streamlit==1.32.0
+streamlit==1.48.0
 tzdata==2023.3
 yfinance==0.2.65
 curl_cffi==0.13.0
