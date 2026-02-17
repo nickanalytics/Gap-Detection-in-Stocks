@@ -52,6 +52,7 @@ with row1_col1:
     'AAPL': 'Apple Inc.',
     'ABBV': 'AbbVie Inc.',
     'ABN.AS': 'ABN AMRO Bank N.V.',
+    'ACN': 'Accenture',
     'ADBE': 'Adobe Inc.',
     'ADYEN.AS': 'Adyen N.V.',
     '^AEX': 'AEX Index',
